@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700&display=swap');
+
+:root{
+    font-family: 'Poppins', sans-serif;
+    --blue: #0000ff;
+    --orange: #F8CB2E;
+
+}
+
+.body{
+    background: #F2F2F2 !important;
+}
+
+
+#myBtn {
+    display: none; 
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    z-index: 99;
+    font-size: 18px;
+    border: 1px solid gray;
+    outline: gray;
+    background-color: white;
+    color: #222;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 25px;
+  }
+  
+  #myBtn:hover {
+    background-color: #777;
+  }
+
+.navbar-hidden {
+    display: none;
+  }
+.bg-primary{
+    background-color: var(--orange) !important;
+}
+
+#header{
+    background: url(Rectangle\ 38.png) top/cover no-repeat;
+}
+
+.carousel-inner h1{
+    font-size: 60px;
+    font-family: Poppins;
+}
+.carousel-item .btn{
+    border-color: #0000ff !important;
+    transition: 0.8s;
+}
+.carousel-item .btn:hover{
+    border-color: white !important;
+}
+
+.title h2::before{
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 50px;
+    background-color: #0000ff;
+    left: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 50%;
+    font-family: Poppins;
+}
+
+.primary-btn{
+    border: 0px solid grey;
+    border-radius: 25px;
+    padding: 5px 28px;
+    background-color:#7952B3;
+    color:white;
+    transition: 0.8s;
+}
+
+.primary-btn-cat{
+    border: 1px solid grey;
+    border-radius: 25px;
+    padding: 5px 28px;
+    background-color:white;
+    color:#222;
+    transition: 0.8s;
+
+}
+
+.primary-btn-cat:hover{
+    background-color: #0000ff;
+    color: white;
+}
+
+
+.primary-btn-buy{
+    color: white;
+    background-color: blue;
+}
+
+.primary-btn:hover{
+    border-color: white;
+    background-color: blue;
+    color: white;
+}
+
+.active-filter-btn{
+    background-color: blue !important;
+    color: white;
+}
+
+.product-img span{
+    top: 20px;
+    right: 20px;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+
+}
+
+.product-img{
+    transition: 0.8s;
+}
+.product-img:hover{
+    transform: scale(1.04);
+}
+
+#newsletter p{
+    max-width: 600px;
+    font-family: Poppins;
+}
+
+#newsletter .input-group{
+    max-width: 500px;
+
+}
+
+#newsletter .form-control{
+    border-radius: 10px 0px 0px 10px;
+}
+
+#newsletter .btn{
+    background-color: green;
+    color: white;
+
+}
+
+@media(min-width: 992px){
+
+}
